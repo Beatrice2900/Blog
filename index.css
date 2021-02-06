@@ -1,9 +1,24 @@
-
-
 #BlogTitle {
-    font-family: TitleFont;    
+    font-family: TitleFont;
     font-size: 50px;
     padding:15px;
     text-align: center;
     margin-top:50px;
 }
+#ContactTitle {
+    font-family: TitleFont;
+    font-size: 50px;
+    padding:15px;
+    text-align: center;
+    margin-top:50px;
+}
+#FullWidth {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+}
+
+
+

@@ -8,7 +8,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <style>
+       @font-face{
+    font-family: TitleFont;
+    src: url(css/fonts/Aerotis.otf);
+        }   
+        #ContactTitle {
+    font-family: TitleFont;    
+    font-size: 50px;
+    padding:15px;
+    text-align: center;
+    margin-top:50px;
+        }
+  </style>
     </head>
     <body>
         <div style="position:fixed; top:0; width:100%; z-index: 1;">
@@ -40,8 +52,11 @@
             </div>
             </nav>
             </div>
-            <div class="container">
+            <div id="ContactTitle">
                 <h2>Contact</h2>
+            
+            </div>
+            <div class="container">
                 <form action="/action_page.php">
                 <div class="form-group">
                 <label for="email">Email:</label>
